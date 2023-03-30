@@ -1,0 +1,1 @@
+This is a mini project created using HTML, CSS, and JavaScript. This is a simple application which validates the login or registration form according to the specified rules. 
