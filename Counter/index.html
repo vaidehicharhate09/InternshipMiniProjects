@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body style="background-color: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">
+    
+    <div class="container">      <!--container is basic element used when grid system is used-->
+        <div class="row justify-content-center">   <!--justify will bring all the contents at the center of all parent -->
+            <div class="col-md-6 text-center">
+                <h1>JavaScript Counter</h1>
+                <h1 id="number">0</h1>
+                <button class="btn btn-success" onclick="increment()">INCREMENT</button>  <!--will make button green-->
+                <button class="btn btn-danger" onclick="decrement()">DECREMENT</button>   <!--will make button red-->
+                <button class="btn btn-primary" onclick="neutral()">NEUTRAL</button>    <!--will make button blue-->
+                
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+</body>
+</html>
+<script src="./index.js"></script>
