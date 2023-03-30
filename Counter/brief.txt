@@ -1,0 +1,1 @@
+This is mini project created using HTML, CSS, and JavaScript. This is a simple counter which increments itself when clicked on "+" and decrements when clicked on "-". Also it sets itself to zero when clicked on "0". it 
