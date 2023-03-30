@@ -1,0 +1,1 @@
+This is a mini project built using HTML, CSS, JavaScript and jQuery. This a simple application that displays covid patients information on a web page.
