@@ -1,0 +1,40 @@
+img{
+    border-radius: 5px !important;   
+}
+.col-md-3
+{
+    margin: 30px !important;
+}
+p{
+    font-weight: bold;
+    font-size: 22px;
+}
+#navbar{
+    background-color:rgb(158, 215, 72);
+}
+li{
+    color:black;
+    list-style-type: none;
+    display: inline;
+    margin-left: 30px !important;
+}
+li:hover{
+    background-color: #f1eaea;                  /* syntax for hover=> element:hover{req decorations} */
+    color:black;
+    padding: 8px;
+}
+#nav-elements {
+    text-align: center;
+    padding: 10px;
+    /* text-shadow: 2px 2px 5px red */
+    
+}
+#title{
+    font-size: 30px;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#footer{
+    background-color:rgb(194, 190, 190);
+    text-align: center;
+}
