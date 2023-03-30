@@ -1,0 +1,1 @@
+This is mini project created using HTML, CSS, and JavaScript. This is a simple to do application that adds our tasks to list and deletes them once done.
