@@ -1,0 +1,35 @@
+body{
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+.col-md-6{
+    margin-top: 150px !important;
+    padding: 20;
+    background-color: white;
+}
+
+input{
+    margin-top: 20px;
+
+}
+
+button{
+    margin-top: 20px !important;
+    
+}
+
+.success{
+    border: 3px solid green !important;
+
+}
+
+.error{
+    border: 3px solid red !important;
+}
+
+small{
+    color: red;
+    font-weight: bold;
+    margin: 5px;
+    float: left;
+}
