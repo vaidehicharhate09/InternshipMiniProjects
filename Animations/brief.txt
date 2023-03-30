@@ -1,0 +1,1 @@
+This is mini project built using HTML, CSS, Ajax and JavaScript. This is simple application that demonstrates how animations can be applied on a web page. 
