@@ -1,0 +1,1 @@
+This is mini project created using HTML, CSS, JavaScipt. This is simple quiz application which displays question along with four options and at the end of all questions it will display the total score of the player
