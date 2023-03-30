@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <title>Quiz</title>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-7 shadow-lg p-3 mb-5 bg-white rounded">    <!--we removed text center class as the questions are expected to start from corner-->
+                    <h1 class="text-center">QUIZ</h1>
+                    <div id="quizdiv">                                        <!--div for displaying questions and options-->
+                        <h2 id="question">Question</h2>
+                        <li>
+                            <input type="radio" class="answer" id="a" name="answer">    <!--name = answer is same for all options as they are to be treated as one      variable on being clicked and to avoid selecting muliple options-->
+                            <label for="a" id="a_value">option a</label>
+                        </li>
+                        <li>
+                            <input type="radio" class="answer" id="b" name="answer">
+                            <label for="b" id="b_value">option b</label>
+                        </li>
+                        <li>
+                            <input type="radio" class="answer" id="c" name="answer">
+                            <label for="c" id="c_value">option c</label>
+                        </li>
+                        <li>
+                            <input type="radio" class="answer" id="d" name="answer">
+                            <label for="d" id="d_value">option d</label>
+                        </li>
+
+                        <button class="btn btn-primary" id="submit">SUBMIT</button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script src="./index.js"></script> 

@@ -1,0 +1,24 @@
+body
+{
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+}
+.col-md-7
+{
+    margin-top: 150px !important;
+    background-color: white;
+    padding: 20px;
+
+}
+h1{
+    background-color: bisque;
+    padding: 10px;
+
+}
+input, label{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+li{
+    list-style-type: none;   /*to remove the bullet points of li element*/
+}
